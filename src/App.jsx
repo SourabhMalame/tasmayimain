@@ -7,6 +7,7 @@ import Register from "./pages/registration/Registration"
 import Home from './pages/home/Home';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import About from './components/About/About';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Register />} />
+          <Route path='/about' element={<About />} />
         </Routes>
         <Footer />
       </Router>
