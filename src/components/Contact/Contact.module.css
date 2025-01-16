@@ -1,0 +1,61 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.title {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: blue;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+.services,
+.brands {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.services h2,
+.brands h2 {
+  font-size: 1.5em;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.brands ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.brands li {
+  margin: 5px 0;
+  text-align: left;
+}

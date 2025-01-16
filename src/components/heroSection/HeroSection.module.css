@@ -1,0 +1,45 @@
+.heroContainer {
+  background: linear-gradient(
+      135deg,
+      rgba(13, 13, 13, 0.5),
+      rgba(37, 117, 252, 0.5)
+    ),
+    url("../../assets/hero.jpg") no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  color: white;
+}
+
+.heroContent {
+  max-width: 600px;
+}
+
+.heroTitle {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.heroSubtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.heroButton {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: white;
+}
+
+.heroButton:hover {
+  background: linear-gradient(135deg, rgb(37, 117, 252), rgb(106, 17, 203));
+  color: white;
+}

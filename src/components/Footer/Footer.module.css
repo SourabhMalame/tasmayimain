@@ -1,0 +1,122 @@
+/* General Footer Styling */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Vertical Sections Layout */
+.verticalSections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Each Vertical Section */
+.verticalSection {
+  padding: 10px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.linksList,
+.socialMediaList,
+.servicesList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linksList li,
+.socialMediaList li,
+.servicesList li {
+  margin-bottom: 10px;
+}
+
+.linksList a,
+.socialLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.linksList a:hover,
+.socialLink:hover {
+  color: #1abc9c;
+}
+
+/* Horizontal Sections Layout */
+.horizontalSections {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Each Horizontal Section */
+.horizontalSection {
+  width: 48%;
+}
+
+.horizontalSection p,
+.horizontalSection ul {
+  font-size: 14px;
+}
+
+.horizontalSection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.horizontalSection ul li {
+  margin-bottom: 10px;
+}
+
+.horizontalSection ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.horizontalSection ul a:hover {
+  color: #1abc9c;
+}
+
+/* Copyright Section */
+.copyRight {
+  text-align: center;
+  font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .verticalSections {
+    grid-template-columns: 1fr;
+  }
+
+  .horizontalSections {
+    flex-direction: column;
+  }
+
+  .horizontalSection {
+    width: 100%;
+  }
+}
+
+.footerlogo {
+  width: 300px;
+  height: 120px;
+}
+
+.footerlogodiv {
+  float: left;
+  /* border: 1px solid white; */
+  width: 50%;
+}

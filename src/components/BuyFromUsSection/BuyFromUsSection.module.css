@@ -1,0 +1,45 @@
+.sectionContainer {
+  background: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.benefitsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.benefitIcon {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+  /* border-radius: 10; */
+}
+
+.benefit h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.benefit p {
+  font-size: 14px;
+  color: #555;
+}

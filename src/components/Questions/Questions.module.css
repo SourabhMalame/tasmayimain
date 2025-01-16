@@ -1,0 +1,72 @@
+/* General Section Styling */
+.questionsSection {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Heading */
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* List of Questions */
+.questionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Question Card */
+.questionCard {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.questionCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Question Title */
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questionTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.toggleIcon {
+  font-size: 24px;
+  color: #1abc9c;
+  font-weight: bold;
+}
+
+/* Answer Styling */
+.answer {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .questionsList {
+    padding: 0 10px;
+  }
+}
