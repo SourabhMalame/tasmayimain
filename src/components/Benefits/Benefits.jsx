@@ -8,11 +8,7 @@ const Benefits = () => {
             title: "Easy to Use",
             description: "Our platform is designed with user-friendliness in mind, making it easy for anyone to use without prior training."
         },
-        {
-            id: 2,
-            title: "24/7 Support",
-            description: "We offer round-the-clock customer support to ensure your experience is smooth and seamless at any time."
-        },
+       
         {
             id: 3,
             title: "Fast Performance",

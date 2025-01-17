@@ -25,7 +25,8 @@ const Navbar = () => {
                     <span>📧 Email:</span> tasmayimotors@gmail.com
                 </p>
                 <p>
-                    <span>🏘 Address:</span> Silver Central Mall, 2nd Floor, Office No. 11, Moshi - 411062
+                    <span>🏘 Address:</span>
+                    Silver Central Mall, 2nd Floor, Office No. 11, Moshi,Pune - 411062
                 </p>
             </div>
 

@@ -18,7 +18,7 @@ const Contact = () => {
                     <strong>Email:</strong> <a href="mailto:tasmayimotors@gmail.com">tasmayimotors@gmail.com</a>
                 </p>
                 <p>
-                    <strong>Address:</strong> Silver Central Mall, 2nd Floor, Office No. 11, Moshi - 411062
+                    <strong>Address:</strong>Silver Central Mall, 2nd Floor, Office No. 11, Moshi,Pune - 411062
                 </p>
             </div>
 

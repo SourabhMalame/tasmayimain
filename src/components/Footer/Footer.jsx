@@ -17,7 +17,7 @@ const Footer = () => {
                     <h4 className={styles.sectionTitle}>Contact Us</h4>
                     <p>Email: tasmayimotors@gmail.com</p>
                     <p>Phone: +91 8855831697</p>
-                    <p>Address: Silver Central Mall, 2nd Floor, Office No. 11, Moshi - 411062
+                    <p>Address: Silver Central Mall, 2nd Floor, Office No. 11, Moshi,Pune - 411062
 
                     </p>
                 </div>

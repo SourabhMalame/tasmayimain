@@ -36,7 +36,7 @@ const Cars = () => {
             <h2 className={styles.title}>Top 20 From Us</h2>
 
             {/* Filters Section */}
-            <div className={styles.filters}>
+            {/* <div className={styles.filters}>
                 <select onChange={handleBrandChange} value={selectedBrand} className={styles.filterSelect}>
                     <option value="">Select Brand</option>
                     {uniqueBrands.map((brand, index) => (
@@ -55,7 +55,7 @@ const Cars = () => {
                     ))}
                 </select>
 
-            </div>
+            </div> */}
 
             {/* Car Grid */}
             <div className={styles.carGrid}>
@@ -64,7 +64,6 @@ const Cars = () => {
                         <img src={car.image} alt={car.name} className={styles.carImage} />
                         <h3 className={styles.carName}>{car.name}</h3>
                         <p className={styles.carBrand}>Brand: {car.brand}</p>
-                        <p className={styles.carPrice}>Price Range: {car.price_range}</p>
                         <p className={styles.carType}>Type: {car.type}</p>
                         <p className={styles.carFuel}>Fuel Type: {car.fuel_type}</p>
                         <p className={styles.carRating}>Rating: {car.stars} </p>
