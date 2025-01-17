@@ -1,32 +1,42 @@
 import React from "react";
 import styles from "./Brands.module.css";
-import brand1 from "../../assets/brand1.png"
-import brand2 from "../../assets/brand2.png"
-import brand3 from "../../assets/brand3.png"
-import brand4 from "../../assets/brand4.png"
-import brand5 from "../../assets/brand5.png"
-import brand6 from "../../assets/brand6.png"
-import brand7 from "../../assets/brand7.png"
-import brand8 from "../../assets/brand8.png"
-import brand9 from "../../assets/brand9.png"
-import brand10 from "../../assets/brand10.png"
-import brand11 from "../../assets/brand11.png"
-import brand12 from "../../assets/brand12.png"
+
+import toyoto from "../../assets/Toyoto.png"
+import lexus from "../../assets/lexus.png"
+import maybach from "../../assets/maybach.png"
+import landrover from "../../assets/land-rover.png"
+import bmw from "../../assets/BMW.png"
+import mahindra from "../../assets/mahindra.png"
+import tata from "../../assets/tata.png"
+import hummer from "../../assets/hummer.png"
+import cadillac from "../../assets/cadillac.png"
+import mercedes from "../../assets/mercedes.png"
+
+
+
+//  hammer , Bmw Tata Cadilac creta fortunar 700 wagan meback land rover volvo
+// toyota lexus mahindra tata maruti 
+
+ 
+
+
+
 const Brands = () => {
     // List of brand logos (add actual image paths to "assets" folder)
     const brandLogos = [
-        brand1,
-        brand2,
-        brand3,
-        brand4,
-        brand5,
-        brand6,
-        brand7,
-        brand8,
-        brand9,
-        brand10,
-        brand11,
-        brand12
+        lexus,
+        toyoto,
+        mahindra,
+        tata,
+        maybach,
+        landrover,
+        hummer,
+        bmw,
+        mercedes,
+        cadillac
+        
+
+       
 
 
     ];

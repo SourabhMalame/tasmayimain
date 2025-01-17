@@ -7,30 +7,31 @@ const Questions = () => {
     const questions = [
         {
             id: 1,
-            question: "How can I contact customer support?",
-            answer: "You can contact customer support via our contact page or email us at support@example.com."
+            question: "How do I contact support?",
+            answer: "You can email us at support@example.com or use our contact page."
         },
         {
             id: 2,
-            question: "What is your return policy?",
-            answer: "We offer a 30-day return policy on most of our products. For more details, check our return policy page."
+            question: "What brands do you offer?",
+            answer: "We offer a curated selection of top luxury brands. Contact us for more information on specific brands."
         },
         {
             id: 3,
-            question: "How can I track my order?",
-            answer: "You can track your order by visiting our tracking page and entering your order ID."
+            question: "How do you ensure product quality?",
+            answer: "All our products go through a rigorous quality check to ensure they meet the highest luxury standards."
         },
         {
             id: 4,
-            question: "Do you offer international shipping?",
-            answer: "Yes, we offer international shipping to many countries. Please check the shipping policy page for details."
+            question: "Where are you located?",
+            answer: "We are located at 123 Luxury Avenue, City Name, Country."
         },
         {
             id: 5,
-            question: "Can I modify my order after placing it?",
-            answer: "Orders can be modified within the first hour of placing them. Please contact us immediately if you need to make any changes."
+            question: "Do you offer personalized services?",
+            answer: "Yes, we offer personalized consultations and services. Contact us for more details."
         }
     ];
+    
 
     const toggleAnswer = (index) => {
         if (activeIndex === index) {
