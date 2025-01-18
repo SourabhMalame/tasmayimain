@@ -20,8 +20,8 @@ const Home = () => {
     };
 
     const openWhatsApp = (number) => {
-        const encodedMessage = encodeURIComponent(message);
-        const whatsappURL = `https://wa.me/${number}?text=${encodedMessage}`;
+        // const encodedMessage = encodeURIComponent(message);
+        const whatsappURL = `https://wa.me/${number}`;
         window.open(whatsappURL, "_blank");
         // this is whatapp
     };
@@ -32,7 +32,7 @@ const Home = () => {
 
     function name(params) {
         console.log(params)
-        console.log("gmail is not fworkign")
+        console.log("gmail is not")
     }
 
     return (
