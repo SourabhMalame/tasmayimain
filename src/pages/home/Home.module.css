@@ -1,0 +1,18 @@
+.sidelogo {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  right: 0%;
+  z-index: 1000;
+  background-color: white;
+  padding: 5px 0 5px 5px;
+  border-radius: 5px 0 0 15px;
+  box-shadow: inset 1px 0 2px ;
+}
+
+.sideimg {
+  width: 40px;
+  height: 40px;
+  margin: 5px 0;
+}
