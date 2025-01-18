@@ -32,6 +32,7 @@ const Home = () => {
 
     function name(params) {
         console.log(params)
+        console.log("gmail is not fworkign")
     }
 
     return (
@@ -58,13 +59,13 @@ const Home = () => {
               
 
                 {/* Gmail */}
-                <img
+                {/* <img
                     className={styles.sideimg}
                     src={gmail}
                     alt="Gmail"
                     onClick={sendEmail}
                     style={{ cursor: 'pointer' }}
-                />
+                /> */}
             </div>
             <HeroSection />
             <BuyFromUsSection />
