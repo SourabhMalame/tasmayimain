@@ -8,7 +8,7 @@ import Benefits from "../../components/Benefits/Benefits";
 import Questions from "../../components/Questions/Questions";
 import Contact from "../../components/Contact/Contact";
 import insta from "../../assets/instagram.png";
-import gmail from "../../assets/gmail.png";
+// import gmail from "../../assets/gmail.png";
 import whatsapp from "../../assets/whatapp.png"
 
 
@@ -26,9 +26,9 @@ const Home = () => {
         // this is whatapp
     };
 
-    const sendEmail = () => {
-        window.location.href = "mailto:tasmayimotors@gmail.com";
-    };
+    // const sendEmail = () => {
+    //     window.location.href = "mailto:tasmayimotors@gmail.com";
+    // };
 
     function name(params) {
         console.log(params)
