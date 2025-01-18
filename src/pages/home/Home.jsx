@@ -16,17 +16,23 @@ const Home = () => {
 
     const openInstagram = () => {
         window.open("https://www.instagram.com/tasmayi_motors_121/", "_blank");
+        // this is insta 
     };
 
     const openWhatsApp = (number) => {
         const encodedMessage = encodeURIComponent(message);
         const whatsappURL = `https://wa.me/${number}?text=${encodedMessage}`;
         window.open(whatsappURL, "_blank");
+        // this is whatapp
     };
 
     const sendEmail = () => {
         window.location.href = "mailto:tasmayimotors@gmail.com";
     };
+
+    function name(params) {
+        console.log(params)
+    }
 
     return (
         <div className={styles.homeContainer}>
