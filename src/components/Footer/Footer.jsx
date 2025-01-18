@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
 
             <div className={styles.copyRight}>
-                <p>&copy; 2025 Your Company. All rights reserved.</p>
+                <p>&copy; 2025 Tasmayi Motors. All rights reserved.</p>
             </div>
         </footer>
     );

@@ -31,17 +31,17 @@ const Contact = () => {
                 <h2>Brands We Offer</h2>
                 <ul>
                     <li>Lexus</li>
-                    <li>Land Rover</li>
-                    <li>Mercedes</li>
-                    <li>Hummer</li>
                     <li>Toyota</li>
-                    <li>Skoda</li>
-                    <li>Kia</li>
-                    <li>Hyundai</li>
+                    <li>Mahindra</li>
                     <li>Tata</li>
-                    <li>Volkswagen</li>
-                    <li>Maruti Suzuki</li>
+                    <li>Maybach</li>
+                    <li>Land Rover</li>
+                    <li>Hummer</li>
+                    <li>BMW</li>
+                    <li>Mercedes</li>
+                    <li>Cadillac</li>
                 </ul>
+
             </div>
         </div>
     );

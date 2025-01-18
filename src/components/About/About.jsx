@@ -22,7 +22,7 @@ const About = () => {
                 <p><strong>Proprietor:</strong> Aman Mahindrakar</p>
                 <p><strong>Phone:</strong> +91 8855831697, +91 8087381445</p>
                 <p><strong>Email:</strong> tasmayimotors@gmail.com</p>
-                <p><strong>Address:</strong> Silver Central Mall, 2nd Floor, Office No. 11, Moshi - 411062</p>
+                <p><strong>Address:</strong> Silver Central Mall, 2nd Floor, Office No. 11, Moshi,Pune - 411062</p>
             </section>
 
             {/* Services Section */}
@@ -42,16 +42,15 @@ const About = () => {
                 <p>We proudly showcase some of the most prestigious car brands in the world:</p>
                 <ul>
                     <li>Lexus</li>
-                    <li>Land Rover</li>
-                    <li>Mercedes</li>
-                    <li>Hummer</li>
                     <li>Toyota</li>
-                    <li>Skoda</li>
-                    <li>Kia</li>
-                    <li>Hyundai</li>
+                    <li>Mahindra</li>
                     <li>Tata</li>
-                    <li>Volkswagen</li>
-                    <li>Maruti Suzuki</li>
+                    <li>Maybach</li>
+                    <li>Land Rover</li>
+                    <li>Hummer</li>
+                    <li>BMW</li>
+                    <li>Mercedes</li>
+                    <li>Cadillac</li>
                 </ul>
             </section>
         </div>

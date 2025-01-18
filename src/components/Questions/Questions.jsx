@@ -8,7 +8,7 @@ const Questions = () => {
         {
             id: 1,
             question: "How do I contact support?",
-            answer: "You can email us at support@example.com or use our contact page."
+            answer: "You can email us at tasmayimotors@gmail.com or use our contact page."
         },
         {
             id: 2,
