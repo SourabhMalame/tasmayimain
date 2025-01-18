@@ -19,7 +19,8 @@ const Home = () => {
     };
 
     const openWhatsApp = (number) => {
-        const whatsappURL = `https://wa.me/${number}`;
+        const encodedMessage = encodeURIComponent(message);
+        const whatsappURL = `https://wa.me/${number}?text=${encodedMessage}`;
         window.open(whatsappURL, "_blank");
     };
 
